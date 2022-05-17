@@ -1,0 +1,40 @@
+body {
+    width: 80%;
+    max-width: 1600px;
+    margin: auto;
+}
+
+.valaszok {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    border-bottom: 1px solid lightgrey;
+    padding: 5px;
+    align-items: center;
+}
+
+.kerdes {
+    width: 100%;
+    background-color: gray;
+    border-radius: 5px;
+    padding: 5px;
+    color: white;
+}
+
+.valaszok div {
+    background-color: lightblue;
+    border: solid 1px gray;
+    padding: 5px;
+    border-radius: 5px;
+    margin: 10px;
+}
+
+.kategoriaSelect {
+    padding: 5px;
+    border-radius: 5px;
+}
+
+@media screen and (max-width: 480px) {
+    .valaszok {
+        grid-template-columns: 1fr;
+    }
+}
